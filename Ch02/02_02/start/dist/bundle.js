@@ -6,7 +6,7 @@ ReactDOM.render(React.createElement(
         className: "header",
         style: {
             backgroundColor: 'orange',
-            color: 'white',
+            color: 'green',
             fontFamily: 'verdana'
         } },
     "Hello World"

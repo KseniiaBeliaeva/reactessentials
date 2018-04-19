@@ -1,5 +1,5 @@
 Arguments: 
-  /nix/store/350mh8m3fd42nq0zqpix4rh79cvq3wlf-nodejs-6.11.5/bin/node /nix/store/32ypyk89wlglgbw92rnybs8rhivqnm0g-yarn-1.3.2/libexec/yarn/bin/yarn.js start
+  /nix/store/350mh8m3fd42nq0zqpix4rh79cvq3wlf-nodejs-6.11.5/bin/node /nix/store/32ypyk89wlglgbw92rnybs8rhivqnm0g-yarn-1.3.2/libexec/yarn/bin/yarn.js add httpster
 
 PATH: 
   /Users/rumata/.nix-profile/bin:/Users/rumata/.nix-profile/sbin:/Users/rumata/.nix-profile/bin:/Users/rumata/.nix-profile/sbin:/Users/rumata/.nix-profile/lib/kde4/libexec:/nix/var/nix/profiles/default/bin:/nix/var/nix/profiles/default/sbin:/nix/var/nix/profiles/default/lib/kde4/libexec:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:node_modules/.bin
@@ -20,7 +20,7 @@ npm manifest:
     "description": "A project focusing on React and related tools",
     "main": "index.js",
       "scripts": {
-        "build": "babel src -d lib",
+        "start": "httpster -d ./dist -p 3000"
       },
     "repository": "https://kseniiabeliaeva.github.io/reactessentials/",
     "author": "Kseniia Beliaeva",
@@ -31,7 +31,7 @@ npm manifest:
     "dependencies": {
       "babel-preset-latest": "^6.24.1",
       "babel-preset-react": "^6.24.1",
-      "babel-preset-stage-0": "^6.24.1"
+      "babel-preset-stage-0": "^6.24.1",
     }
   }
 
@@ -1860,7 +1860,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
 Trace: 
-  SyntaxError: /Users/rumata/Desktop/react-essentials/Ch02/02_02/start/package.json: Unexpected token } in JSON at position 198
+  SyntaxError: /Users/rumata/Desktop/react-essentials/Ch02/02_02/start/package.json: Unexpected token } in JSON at position 523
       at Object.parse (native)
       at /nix/store/32ypyk89wlglgbw92rnybs8rhivqnm0g-yarn-1.3.2/libexec/yarn/lib/cli.js:770:59
       at next (native)
